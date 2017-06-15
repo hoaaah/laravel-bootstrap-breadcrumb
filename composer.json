@@ -1,0 +1,21 @@
+{
+    "name": "hoaaah/laravel-bootstrap-breadcrumb",
+    "description": "A packages for create bootstrap breadcrumb dynamically.",
+    "authors": [
+        {
+            "name": "Arief Wijaya",
+            "email": "hoaaah.arief@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "hoaaah\\laravelBreadcrumb\\": ""
+        }
+    },    
+}
