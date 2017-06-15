@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "hoaaah\\laravelBreadcrumb\\": "vendor/hoaaah/laravel-bootstrap-breadcrumb/src"
+            "hoaaah\\LaravelBreadcrumb\\": "src/"
         }
     }
 }

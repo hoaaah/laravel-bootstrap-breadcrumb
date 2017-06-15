@@ -2,7 +2,7 @@
 namespace hoaaah\LaravelBreadcrumb;
 
 class Breadcrumb {
-    public static function{
+    public function begin(){
         return '
             <ul class="breadcrumb">
                 <li><a href="/home">Home</a></li>
