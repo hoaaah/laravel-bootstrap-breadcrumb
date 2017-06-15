@@ -15,6 +15,9 @@ class LaravelBreadcrumbServiceProvider extends ServiceProvider
     {
         //
         $this->loadViewsFrom(__DIR__.'/views', 'breadcrumb');
+        // $this->publishes([
+        //     __DIR__.'/views' => base_path('resources/views/laraveldaily/timezones'),
+        // ]);
     }
 
     /**
@@ -26,6 +29,11 @@ class LaravelBreadcrumbServiceProvider extends ServiceProvider
     {
         //
         include __DIR__.'/routes.php';
-        $this->app->make('hoaaah\Breadcrumb\BreadcrumbController');        
+        $this->app->make('hoaaah\Breadcrumb\BreadcrumbController');
     }
+
+    public function provides()
+    {
+        return ['laravelbreadcrumb'];
+    }    
 }

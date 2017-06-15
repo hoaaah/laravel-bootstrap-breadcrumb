@@ -12,9 +12,6 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "classmap": [
-            "database"
-        ],
         "psr-4": {
             "hoaaah\\laravelBreadcrumb\\": "src/"
         }
