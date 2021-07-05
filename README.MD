@@ -36,7 +36,7 @@ use hoaaah\LaravelBreadcrumb\Breadcrumb as Breadcrumb;
     {!! Breadcrumb::widget([
         'items' => [
             ['label' => 'Link 1'],
-            ['url' => '/link2', 'label' => 'Link 2'],
+            ['url' => route('route.name'), 'label' => 'Link 2'],
             ['label' => $this->title]
         ]
     ]) !!}
@@ -55,7 +55,7 @@ use hoaaah\LaravelBreadcrumb\Breadcrumb as Breadcrumb;
         'homeText' => 'Costumize Home Text',
         'items' => [
             ['label' => 'Link 1'],
-            ['url' => '/link2', 'label' => 'Link 2'],
+            ['url' => route('route.name'), 'label' => 'Link 2'],
             ['label' => $this->title]
         ]
     ]) !!}
